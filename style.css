@@ -91,8 +91,8 @@ header {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  padding-top: 55px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 25px;
   text-align: left;
 }
 
@@ -118,4 +118,53 @@ th {
 
 td {
   font-size: 14px;
+}
+
+.bottom {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.num {
+  float: left;
+  padding: 10px;
+}
+
+.num a {
+  font-family: Roboto;
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+.search, .add {
+  float: right;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+.search {
+  color: #495057;
+  border: 1px solid #DEE2E6;
+  padding: 10px 50px 10px 10px;
+}
+
+.search img, .add img {
+  float: left;
+  width: 20px;
+  height: 20px;
+}
+
+.search span, .add span {
+  float: left;
+  padding-left: 10px;
+}
+
+.add {
+  padding: 10px 20px 10px 15px;
+  color: white;
+  background-color: #3C64B1;
+  border: 1px solid #3C64B1;
 }
