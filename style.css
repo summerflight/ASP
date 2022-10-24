@@ -1,0 +1,82 @@
+body, div {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 상하단 고정 */
+header {
+  background-color: #3C64B1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2000;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  font-family: 'Noto Sans KR';
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.btns {
+  overflow: hidden;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbtn {
+  font-size: 15px;
+  width: 150px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.mypage {
+  float: right;
+  color: white;
+  text-align: center;
+  width: 132px;
+  height: 70px;
+}
+/* -------------------------------------------------------------------------- */
+/* 메인 */
+.maincont {
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+  margin-top: 148px;
+  position: relative;
+  text-align: center;
+}
+
+
+/* -------------------------------------------------------------------------- */
+.cont {
+  width: 1280px;
+  margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
