@@ -15,14 +15,6 @@
     <script src="script.js"></script>
     <!--map-->
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ac2092b53645b08d8939597958710784"></script>
-    <script>
-      var container = document.getElementById('map');
-      var options = {
-        center: new kakao.maps.LatLng(33.450701, 126.570667),
-        level: 3
-      };
-      var map = new kakao.maps.Map(container, options);
-    </script>
   </head>
 
   <body>
@@ -46,7 +38,14 @@
     <!--메인 화면-->
     <div class="maincont">
       <div id="map">
-        
+        <script>
+          var container = document.getElementById('map');
+          var options = {
+            center: new kakao.maps.LatLng(33.450701, 126.570667),
+            level: 3
+          };
+          var map = new kakao.maps.Map(container, options);
+        </script>
       </div>
     </div>
 
