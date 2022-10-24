@@ -13,6 +13,7 @@ header {
   left: 0;
   right: 0;
   z-index: 2000;
+  box-shadow: gray 0 0 3px;
 }
 
 /* Navbar container */
@@ -27,13 +28,19 @@ header {
 /* Links inside the navbar */
 #logo img {
   padding: 14px 16px;
+  float: left;
 }
 
 .navbar a {
-  float: left;
   color: white;
   text-align: center;
   text-decoration: none;
+}
+
+.mypage img {
+  width: 25px;
+  padding: 22px 10px;
+  float: right;
 }
 
 .btns {
@@ -47,8 +54,8 @@ header {
 
 .navbtn {
   font-size: 15px;
-  width: 150px;
-  height: inherit;
+  width: 140px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
