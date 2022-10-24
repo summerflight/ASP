@@ -41,7 +41,8 @@
           var container = document.getElementById('map');
           var options = {
             center: new kakao.maps.LatLng(35.9808607, 126.9723736),
-            level: 3
+            level: 3,
+            mapTypeId: kakao.maps.MapTypeId. SKYVIEW
           };
           var map = new kakao.maps.Map(container, options);
         </script>
