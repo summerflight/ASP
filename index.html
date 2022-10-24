@@ -11,9 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
-    <!-- 스크롤효과 -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--script-->
     <script src="script.js"></script>
+    <!--map-->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ac2092b53645b08d8939597958710784"></script>
+    <script>
+      var container = document.getElementById('map');
+      var options = {
+        center: new kakao.maps.LatLng(33.450701, 126.570667),
+        level: 3
+      };
+      var map = new kakao.maps.Map(container, options);
+    </script>
   </head>
 
   <body>
@@ -36,7 +45,9 @@
 
     <!--메인 화면-->
     <div class="maincont">
-
+      <div id="map">
+        
+      </div>
     </div>
 
   </body>
