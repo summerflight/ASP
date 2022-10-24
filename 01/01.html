@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>농작업 스케줄링 플랫폼</title>
+    <title>내 농지 - 농작업 스케줄링 플랫폼</title>
     <link rel="shortcut icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <!-- 구글 폰트 -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <!--script-->
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
   </head>
 
   <body>
@@ -20,33 +20,22 @@
       <!--상단 메뉴-->
       <div class="navbar">
         <div id="logo">
-          <a href="index.html">
+          <a href="../index.html">
             <img src="img/w_logo.png" width="100px" alt="더피치">
           </a>
         </div>
         <div class="mypage">
         </div>
         <div class="btns">
-          <a href="01/01.html"><div class="navbtn">내 농지</div></a>
-          <a href="02/02.html"><div class="navbtn">방제기록</div></a>
+          <a href="01.html"><div class="navbtn">내 농지</div></a>
+          <a href="../02/02.html"><div class="navbtn">방제기록</div></a>
         </div>
       </div>
     </header>
 
     <!--메인 화면-->
     <div class="maincont">
-      <div id="map">
-        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ac2092b53645b08d8939597958710784"></script>
-        <script>
-          var container = document.getElementById('map');
-          var options = {
-            center: new kakao.maps.LatLng(35.9808607, 126.9723736),
-            level: 3,
-            mapTypeId: kakao.maps.MapTypeId. SKYVIEW
-          };
-          var map = new kakao.maps.Map(container, options);
-        </script>
-      </div>
+
     </div>
   </body>
 </html>
