@@ -197,21 +197,39 @@ td {
 }
 
 .over {
+  width: 100%;
+  margin: 0 auto;
   position: fixed;
-  bottom: 40px;
+  bottom: 30px;
   z-index: 2000;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.over img {
+  width: 20px;
+  height: 20px;
+  float: right;
 }
 
 .over .ad {
+  float: left;
   color: #495057;
   border: 1px solid #DEE2E6;
-  width: 200px;
+  width: 400px;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 4px;
+  margin-right: 10px;
 }
 
 .over .adbtn {
-  float: right;
-  font-size: 14px;
-  border-radius: 4px;
+  float: left;
   color: white;
   background-color: #3C64B1;
+  border: 1px solid #3C64B1;
+  padding: 10px 15px;
+  border-radius: 4px;
 }
