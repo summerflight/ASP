@@ -195,3 +195,23 @@ td {
   background-color: #3C64B1;
   border: 1px solid #3C64B1;
 }
+
+.over {
+  position: fixed;
+  bottom: 40px;
+  z-index: 2000;
+}
+
+.over .ad {
+  color: #495057;
+  border: 1px solid #DEE2E6;
+  width: 200px;
+}
+
+.over .adbtn {
+  float: right;
+  font-size: 14px;
+  border-radius: 4px;
+  color: white;
+  background-color: #3C64B1;
+}
