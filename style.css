@@ -216,6 +216,7 @@ td {
 
 .over .ad {
   float: left;
+  background-color: white;
   color: #495057;
   border: 1px solid #DEE2E6;
   width: 400px;
