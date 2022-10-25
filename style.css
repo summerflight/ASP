@@ -122,6 +122,11 @@ header {
   border-collapse: collapse;
 }
 
+table a {
+  text-decoration: none;
+  color: #495057;
+}
+
 th, td {
   text-align: left;
   padding: 15px;
@@ -177,6 +182,10 @@ td {
 
 .search span, .add span {
   float: left;
+  padding-left: 10px;
+}
+
+.title2 span {
   padding-left: 10px;
 }
 
