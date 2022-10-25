@@ -13,7 +13,7 @@ header {
   left: 0;
   right: 0;
   z-index: 2000;
-  box-shadow: gray 0 0 3px;
+  box-shadow: #3c64b1 0 0 3px;
 }
 
 /* Navbar container */
@@ -233,4 +233,5 @@ td {
   border: 1px solid #3C64B1;
   padding: 10px 15px;
   border-radius: 4px;
+  box-shadow: #3c64b1 0 0 3px;
 }
