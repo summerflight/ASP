@@ -88,9 +88,25 @@
       </table>
       <div class="bottom">
         <div class="num"><a>〈</a><a style="color:#3C64B1; font-weight:700">1</a><a>2</a><a>3</a><a>4</a><a>...</a><a>17</a><a>〉</a></div>
-        <div class="add"><img src="../img/add.png"><span>방제 신청</span></div>
+        <div class="add" onClick="document.getElementById('modal').style.display='block'"><img src="../img/add.png"><span>방제 신청</span></div>
         <div class="search"><img src="../img/search.png"><span>검색어를 입력해주세요.</span></div>
       </div>
     </div>
+      
+    <!-- 모달 -->
+    <div id="modal" class="md">
+      <div class="bg"></div>
+      <div class="fg">
+        <div class="fgin">
+          <span class="mdtitle">방제 신청</span>
+          <span class="left">농지 주소</span><span class="right">전북 익산시 황등면 죽촌리 312-11</span>
+          <span class="left">방제 희망일</span><span class="right">방제 희망일을 선택해주세요.</span>
+          <span class="left">요청 사항</span><input type="text" placeholder=" 요청사항을 입력해주세요." class="right2">
+          <button class="cancel" onclick="document.getElementById('modal').style.display='none'" type="button">취소</button>
+          <button class="ok" onclick="document.getElementById('modal').style.display='none'" type="button">신청</button>
+        </div>
+      </div>
+    </div>
+    <!-- 모달 -->
   </body>
 </html>
