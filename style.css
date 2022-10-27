@@ -246,6 +246,7 @@ td {
 .fgin .left {font-size:12px;width:30%;float:left;color:#737B7D;height:24px;}
 .fgin .right {font-size:13px;width:67%;float:left;color:#495057;margin-bottom:15px;height:24px;}
 .fgin .right2 {font-size:12px;width:67%;float:left;color:#495057;height:18px;margin-bottom:15px;}
+.fgin .right3 {font-size:12px;float:right;color:#3C64B1;height:24px;font-weight:700;text-decoration:underline;}
 
 .cancel, .ok {width: 49%;margin-top:25px;height:40px;border-radius:4px;}
 .cancel {float:left; color:#292D32; background-color:#F5F5F5; border:none;}
